@@ -2,95 +2,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
 }
 
 header {
-    background-color: #2874f0;
-    color: white;
-    padding: 10px 0;
+  background-color: #2874f0;
+  color: white;
+  padding: 10px 0;
 }
 
 .top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: yellow;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: yellow;
 }
 
 .user-actions a {
-    color: white;
-    text-decoration: none;
-    margin-left: 10px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
 }
 
 .user-actions a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .main-nav {
-    background-color: #ffcd00;
-    padding: 5px 0;
+  background-color: #ffcd00;
+  padding: 5px 0;
 }
 
 .main-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .main-nav ul li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .main-nav ul li a {
-    color: #333;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
 }
 
 .main-nav ul li a:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
-
 
 .banner img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
-
 .products {
-    padding: 20px;
+  padding: 20px;
 }
 
 .products h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
 }
